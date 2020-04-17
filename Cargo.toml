@@ -1,5 +1,5 @@
 [package]
-name = "test_crate_hello_world"
+name = "test_crate_hello_world_malik"
 version = "0.1.0"
 authors = ["Jahanzaib Malik <jahanzaibmalik6@gmail.com>"]
 edition = "2018"
