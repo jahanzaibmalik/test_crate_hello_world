@@ -1,7 +1,15 @@
+pub fn hello() -> String {
+    ("Hello, world!").to_string()
+}
+
+
 #[cfg(test)]
 mod tests {
+    
+    use super::hello;
+
     #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
+    fn test_hello() {
+        assert_eq!(hello(), "hello world!");
     }
 }
